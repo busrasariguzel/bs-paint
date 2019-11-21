@@ -80,6 +80,27 @@
 .color-5{
   background: lightseagreen;
 }
+.color-6{
+  background: lightgray;
+}
+.color-7{
+  background: hotpink;
+}
+.color-8{
+  background: peru;
+}
+.color-9{
+  background:green;
+}
+.color-10{
+  background: burlywood;
+}
+.color-11{
+  background: lightyellow;
+}
+.color-12{
+  background: lightskyblue;
+}
 
 #reset {
   border: solid black;

@@ -1,8 +1,11 @@
 const brush = document.querySelector('.current-brush')
 const classes = brush.classList;
-// classes.replace('color-2', 'color-3')
 
-// let currentColor = 
+document.querySelector('#reset').addEventListener('click', resetEverything)
+function resetEverything() {
+    document.location.reload(true);
+}
+
 document.querySelector('.color-1').addEventListener('click', changeBrush)
 function changeBrush() {
     classes.replace(classes[1] , 'color-1')
@@ -42,12 +45,14 @@ const squareClass =newSquares.classList
 
 for (let i = 0; i < newSquares.length; i++) {
     newSquares[i].addEventListener("click", function(event) {
-        newSquares[i].classList.replace(squareClass[1], classes[1])
-        // event.target.classList.replace(classesSquare[1], classes[1]);
+        newSquares[i].classList.replace(newSquares[i].classList[1], classes[1])
+
     })
     }
+
 //     newSquares[i].classList.replace(classesSquare[1], classes[1])
 //     }
+// event.target.classList.replace(squareClass[1], classes[1]);
 // }
 // for (const squares of allSquares) {
 //     square.addEventListener('click', squarePaint)

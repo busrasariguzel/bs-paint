@@ -58,3 +58,20 @@
 .square {
   transition: 0.5s;
 }
+
+.color-1{
+  background:  lightpink;
+}
+.color-2{
+  background:lightskyblue;
+}
+.color-3{
+  background: lightgreen;
+}
+.color-4{
+  background:lightsalmon;
+}
+.color-5{
+  background: lightseagreen;
+}
+

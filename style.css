@@ -53,8 +53,8 @@
 
 .canvas {
   display: grid;
-  grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: repeat(7, 18px);
+  grid-template-columns: repeat(7, 18px);
   border: 1px solid black;
   
 }

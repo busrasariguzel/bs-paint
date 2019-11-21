@@ -34,6 +34,11 @@ function changeBrush4() {
     
     classes.replace(classes[1], 'color-5')
 }
+document.querySelector('.color-6').addEventListener('click', changeBrush5)
+function changeBrush5() {
+    
+    classes.replace(classes[1], 'color-6')
+}
 // const square = document.querySelector('.square')
 // const classesSquare = square.classList;
 
